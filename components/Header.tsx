@@ -31,7 +31,7 @@ export default function Header() {
             <LogoContainer>
                 <Link href="/">
                     <a tw="flex gap-4 justify-center items-center">
-                        <Image src="/logo.png" alt="web3shop-logo" layout="intrinsic" width={150} height={25} objectFit="contain" />
+                        <Image src="/logo.png" alt="web3shop-logo" layout="intrinsic" width={150} height={25} objectFit="contain" className="pointer-events-none" />
                     </a>
                 </Link>
             </LogoContainer>

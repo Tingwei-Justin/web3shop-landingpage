@@ -20,7 +20,7 @@ function Footer() {
             <div tw="max-w-7xl flex flex-col w-screen gap-6 tracking-widest justify-center items-center">
                 <Link href="/">
                     <a tw="flex gap-4 justify-center items-center">
-                        <Image src="/logo.png" alt="web3shop-logo" layout="intrinsic" width={125} height={23} objectFit="contain" />
+                        <Image src="/logo.png" alt="web3shop-logo" layout="intrinsic" width={125} height={23} objectFit="contain" className="pointer-events-none" />
                     </a>
                 </Link>
                 <div>©2022 Web3Shop with ❤️</div>

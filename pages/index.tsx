@@ -63,7 +63,7 @@ const Home: NextPage = () => {
                                 Welcome to the
                             </div>
                             <span className="sr-only">Web3Shop</span>
-                            <Image src="/bg-logo.png" alt="web3shop-logo" layout="intrinsic" width={815} height={100} />
+                            <Image src="/bg-logo.png" alt="web3shop-logo" layout="intrinsic" width={815} height={100} className="pointer-events-none" />
                             <div tw="text-3xl tracking-wider font-bold">
                                 The next generation of Social E-commerce for Web3
                             </div>
