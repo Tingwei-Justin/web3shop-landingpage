@@ -24,7 +24,7 @@ const LogoContainer = tw.div`hover:cursor-pointer lg:(w-1/4)`
 const NavContainer = tw.div`hidden lg:(flex gap-8 w-1/2 justify-center)`
 const RightContainer = tw.div`flex gap-2 justify-center lg:(gap-4 w-1/4) items-center `
 
-export default function Header() {
+export default function Header({handleClickOpen}) {
     return (
         <Container>
 
@@ -62,8 +62,7 @@ export default function Header() {
                         </Link>
                     ))
                 }
-                <Button onClick={async () => {
-                }}>
+                <Button onClick={handleClickOpen}>
                     Lanuch App
                 </Button>
                 {/* <ConnectWalletButton /> */}
