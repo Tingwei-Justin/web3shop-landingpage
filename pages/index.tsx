@@ -108,6 +108,7 @@ const Home: NextPage = () => {
 
         <EarlyAccessModal open={open} handleClickOpen={handleClickOpen} handleClose={handleClose}/>
         
+        
         <div tw="flex justify-center">
           <Footer />
         </div>
