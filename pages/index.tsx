@@ -76,7 +76,7 @@ const Home: NextPage = () => {
             style={{ minHeight: '100vh' }}
             tw="flex flex-col items-center relative"
           >
-            <div tw="mt-48 font-bold relative z-10 max-w-[100rem] mx-auto flex flex-col justify-center items-start gap-8 ">
+            <div tw="px-4 mt-48 font-bold relative z-10 max-w-7xl mx-auto flex flex-col justify-center items-start gap-8 ">
               <div tw="text-2xl tracking-wider">Welcome to the</div>
               <span className="sr-only">Web3Shop</span>
               <Image
@@ -87,18 +87,18 @@ const Home: NextPage = () => {
                 height={100}
                 className="pointer-events-none"
               />
-              <div tw="text-3xl tracking-wider font-bold">
+              <div tw="text-xl lg:text-3xl tracking-wider font-bold">
                 The next generation of Social E-commerce for Web3
               </div>
 
               <div tw="flex gap-8 text-black mt-20">
-                <button tw="px-8 py-2 text-lg bg-3red rounded-full shadow-red hover:shadow-red1" onClick={handleClickOpen}>
+                <button tw="px-4 py-1 text-sm lg:(px-8 py-2 text-lg) bg-3red rounded-full shadow-red hover:shadow-red1" onClick={handleClickOpen}>
                   SHOP IT
                 </button>
-                <button tw="px-8 py-2 text-lg bg-3blue rounded-full shadow-blue hover:shadow-blue1" onClick={handleClickOpen}>
+                <button tw="px-4 py-1 text-sm lg:(px-8 py-2 text-lg) bg-3blue rounded-full shadow-blue hover:shadow-blue1" onClick={handleClickOpen}>
                   SHOW IT
                 </button>
-                <button tw="px-8 py-2 text-lg bg-3green rounded-full shadow-green hover:shadow-green1" onClick={handleClickOpen}>
+                <button tw="px-4 py-1 text-sm lg:(px-8 py-2 text-lg) bg-3green rounded-full shadow-green hover:shadow-green1" onClick={handleClickOpen}>
                   WEB3 IT
                 </button>
               </div>
@@ -108,7 +108,7 @@ const Home: NextPage = () => {
 
         <EarlyAccessModal open={open} handleClickOpen={handleClickOpen} handleClose={handleClose}/>
         
-        
+
         <div tw="flex justify-center">
           <Footer />
         </div>
